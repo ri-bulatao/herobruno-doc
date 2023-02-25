@@ -1,0 +1,16 @@
+site_name: HeroBruno Documentation
+nav:
+      
+    - Getting Started: overview.md
+
+    - 'Management Portal':
+      - 'User Management': admin_portal/user-management.md
+      - 'Department Management': admin_portal/department-management.md
+      - 'Announcement Management': admin_portal/announcement-management.md
+      - 'Memo Management': admin_portal/memo-management.md
+      - 'Attendance Management': admin_portal/attendance-management.md
+      
+    - Employee Portal: employee.md
+    
+theme:
+  name: material
