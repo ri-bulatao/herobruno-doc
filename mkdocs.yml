@@ -1,27 +1,36 @@
 site_name: HeroBruno Documentation
 
 nav:
-    - 'Management Portal':
+    - 'Modules':
       - 'User Management': admin_portal/user-management.md
       - 'Department Management': admin_portal/department-management.md
       - 'Announcement Management': admin_portal/announcement-management.md
       - 'Memo Management': admin_portal/memo-management.md
       - 'Attendance Management': admin_portal/attendance-management.md
+      - 'File Management': admin_portal/file-management.md
+      - 'Courses Management': admin_portal/courses-management.md
+      - 'Leave Management': admin_portal/leave-management.md
+      - 'Calendar Management': admin_portal/calendar-management.md
+      - 'Flexi and Hybrid Management': admin_portal/flexi-management.md
+      - 'Settings Management': admin_portal/settings-management.md
       
-    - Employee Portal: employee.md
+    - 'Additional Information':
+      - 'Coming Soon': coming-soon.md
 
 theme:
   name: readthedocs
   highlightjs: true
-plugins:
-  - search
-  - mkdocstrings:
-      handlers:
-        # See: https://mkdocstrings.github.io/python/usage/
-        python:
-          options:
-            docstring_style: sphinx
-markdown_extensions:
-  - markdown_include.include:
-      base_path: .
-  - admonition
+# plugins:
+#   - search
+#   - mkdocstrings:
+#       handlers:
+#         # See: https://mkdocstrings.github.io/python/usage/
+#         python:
+#           options:
+#             docstring_style: sphinx
+# markdown_extensions:
+#   - markdown_include.include:
+#       base_path: .
+#   - admonition
+extra_css:
+  - 'extra.css'

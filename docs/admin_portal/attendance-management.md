@@ -1,17 +1,16 @@
 # Attendance Management
 
-## Overview
+This tool helps tracking and managing employee attendance within the workplace. It involves keeping track of employee absences, tardiness, and other attendance-related information, and using this data to inform decision-making and improve productivity.
 
-This tool helps on the process of creating, organizing, and distributing internal communications within the workplace. Memos are mostly written messages that are used to convey important information, such as announcements, policy updates, or project status reports. 
+## Attendance Management Key Features
 
-## Key Features
+* `Tracking attendance` - This recording employee attendance through the core features, it follows what time is on the clock.
+    * `Time in` - Records what time the user has logged in the workplace. 
+    * `Time out` - Records what time the user has logged out the workplace. 
+    * `Take a break` - Pauses the time in and time out, It records the duration of the break of the user and the reason for the break. 
+    * `Return from break` - Continues the time in record and records the duration and end time of the break. 
+* `Attendance view` - Views a specific user's attendance which includes the history of their time in, time out, and breaks.
+* `Attendance export` - Exports the either the whole or an specific user based on the start and end date provided.
+## Attendance Management Additional Notes
 
-* `Memo Addition` - This lets the admin add a specific/version name to the new memo, and this asks a pdf file to be uploaded on the workplace.
-* `Memo Deletion` - Deletes the memo on the workplace, but keeps the announcement.
-* `Memo Download` - Let's the admins download the memo uploaded.
-* `Memo View` - This shows and displays the specific memo selected on the page.
-* `Memo - Announcement Posting` - The memo can be posted as an announcement, upon ticking the checkbox if it will be announcement the app will ask a specific title that the admin can fill out for the announcement. 
-
-## Additional Notes
-
-The memo - announcement will still act as a regular announcement with just an information that a new memo has been added, but will be posted upon creation and have the audience targeted for everyone on the workplace.  
+The attendance management time is based on PH Locale Time. 

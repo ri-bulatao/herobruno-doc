@@ -1,0 +1,15 @@
+.wy-side-nav-search {
+    background-color: #61229a !important;
+  }
+
+.caption-text {
+  color: #b97cef;
+}
+
+h1 {
+  color: #61229a !important;;
+}
+
+.icon-home::before {
+  content: none;
+}
