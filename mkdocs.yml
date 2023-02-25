@@ -1,4 +1,5 @@
 site_name: HeroBruno Documentation
+
 nav:
       
     - Getting Started: overview.md
@@ -11,6 +12,19 @@ nav:
       - 'Attendance Management': admin_portal/attendance-management.md
       
     - Employee Portal: employee.md
-    
+
 theme:
   name: material
+  highlightjs: true
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        # See: https://mkdocstrings.github.io/python/usage/
+        python:
+          options:
+            docstring_style: sphinx
+markdown_extensions:
+  - markdown_include.include:
+      base_path: .
+  - admonition
