@@ -9,7 +9,3 @@
 h1 {
   color: #61229a !important;;
 }
-
-.icon-home::before {
-  content: none;
-}
