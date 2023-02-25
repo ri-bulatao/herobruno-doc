@@ -1,9 +1,6 @@
 site_name: HeroBruno Documentation
 
 nav:
-      
-    - Getting Started: overview.md
-
     - 'Management Portal':
       - 'User Management': admin_portal/user-management.md
       - 'Department Management': admin_portal/department-management.md
@@ -14,7 +11,7 @@ nav:
     - Employee Portal: employee.md
 
 theme:
-  name: material
+  name: readthedocs
   highlightjs: true
 plugins:
   - search
