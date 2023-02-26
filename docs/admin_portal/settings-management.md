@@ -39,6 +39,5 @@ This is the configuration and management of the company that handles the whole w
 ###### Key Features
 
 * `Company logo` - This lets the admins update the company logo used inside the workplace.
-* `Email header` - This lets the admins update the email header used in the emails of sent by the workplace.
 * `Company information` - This lets the admins update the company's information such as their name and email.
 * `Workplace Color Scheme` - This lets the admin update the color scheme of the whole workplace.
